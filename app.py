@@ -1674,7 +1674,7 @@ st.markdown("---")
 # Footer
 st.markdown("""
     <div style='text-align: center; padding: 20px; color: #666;'>
-        <p>📊 Vietravel Business Intelligence Dashboard</p>
+        <p>📊 Vietravel Business Intelligence Dashboard Ver 3</p>
         <p>Cập nhật lần cuối: {}</p>
     </div>
 """.format(datetime.now().strftime("%d/%m/%Y %H:%M")), unsafe_allow_html=True)
