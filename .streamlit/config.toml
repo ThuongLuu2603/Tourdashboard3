@@ -1,4 +1,5 @@
 [server]
 headless = true
 enableCORS = false
-port = 8080
+# Do not force a static port on Streamlit Community Cloud; the platform provides the port.
+# If you need a custom port for local testing, set it via environment or remove this file locally.
